@@ -1,0 +1,27 @@
+.media{
+    display: flex;
+    align-items: flex-start;
+    max-width: 560px;
+}
+
+.content-div {
+    font-family: 'roboto';
+}
+.content-div p{
+    margin: 0px;
+}
+.doctor-name{
+    color: #1662C6;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.doctor-rating{
+    padding-top: 5px;
+}
+.name-rating{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

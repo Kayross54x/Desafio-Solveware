@@ -1,0 +1,59 @@
+.main-content{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'roboto';
+    display: flex;  
+}
+.main h2{
+    font-size: 21px;
+    
+}
+.main{
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+.doctors-container{
+    border-radius: 10px;
+    padding: 0px 20px 10px 20px;
+}
+.map{
+    margin: 50px 20px 0px 20px;
+    border: 3px solid rgb(161, 161, 161);
+    height: fit-content;
+    border-radius: 5px;
+}
+.description{
+    max-width: 600px;
+}
+.place{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+.icon-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.iconBox{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.iconBox p{
+    margin: 10px 0px 0px 0px;
+}

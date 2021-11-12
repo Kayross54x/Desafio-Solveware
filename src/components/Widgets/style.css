@@ -1,0 +1,26 @@
+.top-side{
+    display: flex;
+    align-items: center;
+}
+.top-side h3{
+    margin: 0px 10px 0px 10px;
+    font-weight: normal;
+}
+.content-widget{
+    max-width: 270px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px 10px 0px 0px;
+    padding: 3px 3px 3px 10px;
+}
+.bottom-side{
+    font-weight: lighter;
+    opacity: 0.9;
+    font-size: 14px;
+    text-align: start;
+    
+}
+.content-widget:hover{
+    background-color: #dbdbdb;
+    border-radius: 10px;
+    transition: 700ms;
+}
