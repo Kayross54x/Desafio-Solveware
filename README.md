@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Desafio para o Estágio Solveware
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido para o processo seletivo de estágio da empresa Solveware
 
-## Available Scripts
+## Tecnologias utilizadas                   
 
-In the project directory, you can run:
+As tecnologias utilizadas são ReactJS, HTML e CSS. Para executá-lo, é necessária a instalação do Node.JS
 
+Após abrir a pasta do software em seu editor de código, basta executar um dos seguintes comandos em seu terminal (se você preferir utilizar o yarn, execute também a instalação dele):
+
+### `npm install --global yarn`
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `npm start`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## As bases do projeto
+Esse foi um projetos que tomou como base o site [https://www.doctoralia.com.br/](https://www.doctoralia.com.br/), em que o principal desafio era desenvolver a maior quantidade de funcionalidades possíves do site em questão por meio de uma tecnologia que eu ainda não tinha muito conhecimento (ReactJS)
 
-### `yarn test`
+## Desafios
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esse projeto foi bastante desafiante desde o início. Tive que aprender tudo do zero sobre ReactJS em apenas uma semana, me deparando com diversos obstáculos que iam desde a criação do projeto até a criação de componentes básicos.
+O primeiro grande desafio que tive foi a adaptação de conhecimentos HTML, CSS e JavaScript puros que eu tinha para a lógica dinâmica do ReactJS. Por conta disso, eu recorri a diversos vídeos no Youtube que ensinavam como montar um pequeno projeto em React, e, por meio deles e através de diversos outros sites que falavam sobre a tecnologia em questão, consegui começar o meu projeto e entender um pouco sobre a organização das pastas e fluxo de renderização.
+Além disso, contei com a ajuda dos meus amigos e, em especial, de um amigo muito experiente na área que me ajudou a desenvolver as bases do meu projeto e outras questões atinentes às funcionalidades do ReactJS.
 
-### `yarn build`
+Depois de aprender muitos conceitos, fui desenvolvendo meu site e comecei a trabalhar com lógicas mais complexas que, após ter entendido como o fluxo do projeto funciona, consegui solucionar e fiquei bastante feliz com o meu raciocínio e entendimento.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Por fim, concluo que quero continuar desenvolvendo aplicações como essa em ReactJS e continuar a desenvolver esse projeto, implementando novas funcionalidades e aprendendo com os erros e desafios.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Considerações finais
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esse foi um trabalho que gostei muito de fazer pois pude aprender bastante durante o desenvolvimento do mesmo. Deixo aqui agradecimentos especiais à empresa Solveware e aos meus amigos que me ajudaram a progredir bastante.
