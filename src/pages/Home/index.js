@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './style.css'
-import { Button, Autocomplete, TextField, Rating } from '@material-ui/core';
+import { Button, TextField } from '@material-ui/core';
+import Autocomplete from '@mui/material/Autocomplete';
+import Rating from '@mui/material/Rating';
 import { Apartment, VideocamRounded, Public, ArrowForward, Event, WatchLater, ThumbUp } from '@material-ui/icons';
 import { speciality } from '../../services/speciality-mock';
 import { cities } from '../../services/cities-mock'
