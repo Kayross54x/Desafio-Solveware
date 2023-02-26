@@ -1,7 +1,8 @@
 import React from 'react';
 import { createDoctorInfo } from '../../components/DoctorsInfo';
 import './style.css'
-import { Button, Rating } from '@material-ui/core';
+import { Button } from '@material-ui/core';
+import Rating from '@mui/material/Rating';
 import { doctors } from '../../services/doctors-mock';
 import { EventNote, Message, Payment, Place, Security } from '@material-ui/icons';
 
