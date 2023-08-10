@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './style.css'
 import { Button, TextField } from '@material-ui/core';
 import Autocomplete from '@mui/material/Autocomplete';
@@ -16,10 +16,7 @@ import avatar3 from '../../assets/avatar3.png'
 import avatar4 from '../../assets/avatar4.png'
 import avatar5 from '../../assets/avatar5.png'
 
-
-
-export const Home = ({ setSelectedCity, setSelectedSpeciality, setCheckCrm, selectedCity, selectedSpeciality}) => {
-  const [variant, setVariant] = useState('inLocal')
+export const Home = ({ setSelectedCity, setSelectedSpeciality, setCheckCrm, selectedCity, selectedSpeciality, variant, setVariant}) => {
   return (
     <>
       {setCheckCrm('')}
@@ -30,7 +27,7 @@ export const Home = ({ setSelectedCity, setSelectedSpeciality, setCheckCrm, sele
           <div className="content-search">
             <div className="content-search-buttons">
               <Button color='inherit'
-                sx={{ marginRight: "10px", height: "45px", borderColor: 'white', borderRadius: '20px', color: 'black' }}
+                style={{marginRight: "10px"}}
                 variant={variant === 'inLocal' ? 'contained' : 'outlined'}
                 startIcon={<Apartment />}
                 onClick={() => setVariant('inLocal')} >No local
