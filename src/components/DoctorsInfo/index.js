@@ -3,7 +3,6 @@ import './style.css'
 import { Link } from 'react-router-dom';
 
 export function createDoctorInfo(avatar, name, description, rating, author, setCheckCrm, crm) {
-
     return (  
         <div className='media'>
 

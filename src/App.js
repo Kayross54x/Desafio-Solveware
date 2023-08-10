@@ -5,12 +5,11 @@ import {Header} from "./components/Header"
 import { DoctorsFound } from './pages/DoctorsFound';
 import { Home } from './pages/Home';
 
-
-
 function App() {
   const [selectedCity, setSelectedCity] = useState('')
   const [selectedSpeciality, setSelectedSpeciality] = useState('')
   const [checkCrm, setCheckCrm] = useState('')
+  const [variant, setVariant] = useState('inLocal');
   
   return (
     <Router>
@@ -21,9 +20,13 @@ function App() {
         setSelectedSpeciality={setSelectedSpeciality} 
         setCheckCrm={setCheckCrm} 
         selectedSpeciality={selectedSpeciality} 
-        selectedCity={selectedCity}/>} />
+        selectedCity={selectedCity}
+        variant={variant} 
+        setVariant={setVariant}/>}
+        />
         
         <Route path="/doctors" element={<DoctorsFound 
+        variant={variant}
         selectedCity={selectedCity} 
         selectedSpeciality={selectedSpeciality} 
         checkCrm={checkCrm} 
